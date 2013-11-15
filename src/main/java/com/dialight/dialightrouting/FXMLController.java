@@ -16,6 +16,7 @@ public class FXMLController implements Initializable {
     private void handleButtonAction(ActionEvent event) {
         System.out.println("You clicked me!");
         label.setText("Bienvenido a Dialight");
+        label.setText("OERIJGOEIJGOEIRJG");
     }
     
     @Override
