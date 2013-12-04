@@ -1,19 +1,45 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package com.dialight.dialightrouting.Classes;
 
-/**
- *
- * @author Jorge
- */
 public class JoinModeloPaso {
     private int id;
     private Modelo modelo;
     private Paso paso;
     private int numerodepasos;
+
+    public JoinModeloPaso() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Modelo getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(Modelo modelo) {
+        this.modelo = modelo;
+    }
+
+    public Paso getPaso() {
+        return paso;
+    }
+
+    public void setPaso(Paso paso) {
+        this.paso = paso;
+    }
+
+    public int getNumerodepasos() {
+        return numerodepasos;
+    }
+
+    public void setNumerodepasos(int numerodepasos) {
+        this.numerodepasos = numerodepasos;
+    }
     
 }
