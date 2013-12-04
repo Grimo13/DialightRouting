@@ -1,0 +1,14 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="com.dialight.dialightrouting.Classes.Modelo" table="MODELO">
+    <id column="ID_MODELO" name="id">
+      <generator class="increment"/>
+    </id>
+    <property name="nombre" unique="true" not-null="true" >
+      <column name="NOMBRE_MODELO"/>
+    </property>
+     
+   </class>
+</hibernate-mapping>

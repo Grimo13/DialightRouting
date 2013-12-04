@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="com.dialigth.dialightrouting.Classes.JoinModeloPaso" table="JOIN_MODELO_PASO">
+    <id column="ID_JMP" name="id">
+      <generator class="increment"/>
+    </id>
+    <property name="numerodepaso">
+      <column name="NUMERODEPASO_JOIN_MODELO_PASO"/>
+    </property>
+    
+  </class>
+</hibernate-mapping>
